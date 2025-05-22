@@ -34,7 +34,7 @@ function LogoDefaultAboutLpv() {
         // style={{
         //   backgroundImage: `url(${content.texts.about.imagem.img})`,
         // }}
-        className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[740px] desktop1:h-[467px] rounded-xl"
+        className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-auto w-[90%] tablet1:w-full desktop1:h-[467px] rounded-xl"
       >
         <ImageGallery
           items={images}
@@ -57,7 +57,7 @@ function LogoDefaultAboutLpv() {
 
                      @media (min-width: 640px) and (max-width: 1023px) {
                         .custom-gallery .image-gallery-slide img {
-                          height: 800px;
+                          height: 900px;
                         }
                       }
 
