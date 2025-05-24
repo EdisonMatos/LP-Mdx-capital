@@ -146,7 +146,7 @@ const contentLp01 = {
         <br />
       </p>
     ),
-    buttonLabel: "Quero antecipar meu precatório",
+    buttonLabel: "Fale com um especialista agora",
     ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
   },
   steps: {
