@@ -68,7 +68,7 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "RECEBA AGORA",
+      miniTag: "VENDA AGORA",
       title:
         "Você tem precatórios a receber? Descubra se pode antecipar e transformar seu direito em capital imediato.",
     },
