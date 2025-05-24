@@ -40,7 +40,7 @@ const contentLp01 = {
       ),
       subtitle:
         "Antecipe seu precatório com segurança e sem burocracia. Seu dinheiro, agora.",
-      buttonLabel: "Quero antecipar meu precatório",
+      buttonLabel: "Fale com um especialista agora",
       obsHero: {
         icon: (
           <svg
