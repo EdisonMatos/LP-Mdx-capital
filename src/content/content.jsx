@@ -100,8 +100,7 @@ export const infos = {
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
-  whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+  whatsappDefaultMessage: "Olá, quero vender meu precatório!",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
