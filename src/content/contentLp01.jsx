@@ -9,6 +9,9 @@ import { Gavel } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { BadgeDollarSign } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
+import { Contact } from "lucide-react";
+import { Building } from "lucide-react";
+
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
 import img3 from "../assets/imgs/about/image3.webp";
@@ -148,6 +151,54 @@ const contentLp01 = {
     ),
     buttonLabel: "Fale com um especialista agora",
     ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
+  },
+  featuresSecondary: {
+    sectionHeader: {
+      miniTag: "ESTOU HABILITADO?",
+      title: "Veja se você pode vender seu precatório",
+    },
+    cards: {
+      card1: {
+        icon: <Contact width={32} height={32} />,
+        title: "Servidor Público (Municipal, estadual e federal)",
+        description:
+          "Precatório expedido em seu nome como servidor, pode ser vendido seu crédito e antecipar o recebimento do valor.",
+        modal1: {
+          title: <p></p>,
+          subtitle: <p>A_Definir</p>,
+        },
+      },
+      card2: {
+        icon: <Gavel width={32} height={32} />,
+        title: "Advogados",
+        description:
+          "Honorários advocatícios vinculados a precatórios desde que estejam devidamente destacados no processo.",
+        modal2: {
+          title: <p>A_Definir</p>,
+          subtitle: <p></p>,
+        },
+      },
+      card3: {
+        icon: <Building width={32} height={32} />,
+        title: "Empresas",
+        description:
+          "Empresas com créditos judiciais reconhecidos e registrados como precatórios.",
+        modal3: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
+      },
+      card4: {
+        icon: <Scale width={32} height={32} />,
+        title: "Espólios",
+        description:
+          "Herdeiros ou representantes legais podem vender precatórios de pessoas falecidas.",
+        modal4: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
+      },
+    },
   },
   steps: {
     miniTag: "A_Definir",
