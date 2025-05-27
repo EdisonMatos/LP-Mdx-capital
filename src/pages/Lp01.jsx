@@ -45,10 +45,10 @@ export default function Lp01() {
     <div>
       <HeroLP fullImg={true} />
       <FeaturesLP />
+      <FeaturesLPSecondary />
       <AboutParalaxeLP />
       <WhyUs />
       <CtaLP />
-      <FeaturesLPSecondary />
       {/* <Faq /> */}
       <ContactLP />
       <FooterLP />
