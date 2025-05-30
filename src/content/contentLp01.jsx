@@ -293,15 +293,15 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO ESPERE MAIS",
-      title: "Receba seu precatório agora mesmo!",
+      title: "Negocie seu precatório agora mesmo!",
       subtitle: (
         <p className="opacity-80">
-          Transforme seu precatório em dinheiro com segurança e as melhores
-          condições do mercado.
+          Transforme seu precatório em dinheiro no bolso com segurança e as
+          melhores condições do mercado.
         </p>
       ),
     },
-    buttonLabel: "Fale com um especialista agora",
+    buttonLabel: "Quero dinheiro no bolso",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
