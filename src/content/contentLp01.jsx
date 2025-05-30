@@ -144,8 +144,8 @@ const contentLp01 = {
         <br />
         <br />
         Com uma abordagem humanizada e estratégica, combinamos criatividade,
-        profissionalismo e iniciativa para entregar valor real, construir
-        confiança e gerar resultados consistentes.
+        profissionalismo e iniciativa para entregar a maior rentabilidade
+        possível, construir confiança e gerar resultados consistentes.
         <br />
         <br />
       </p>
