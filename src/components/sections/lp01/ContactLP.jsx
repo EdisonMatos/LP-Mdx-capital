@@ -20,6 +20,8 @@ export default function ContactLP() {
               label={contentLp01.contact.card3.title}
               icon={contentLp01.contact.card3.icon}
               description={contentLp01.contact.card3.description}
+              botaoTrue
+              link={content.texts.links.ctaWhatsapp}
             />
             <ContactCardLP
               label={contentLp01.contact.card2.title}
@@ -31,6 +33,8 @@ export default function ContactLP() {
               label={contentLp01.contact.card1.title}
               icon={contentLp01.contact.card1.icon}
               description="mdxcapitaloficial"
+              botaoTrue
+              link={content.texts.links.instagram}
             />
           </div>
         </SectionWrapper>
