@@ -12,6 +12,8 @@ import { ChartNoAxesCombined } from "lucide-react";
 import { Contact } from "lucide-react";
 import { Building } from "lucide-react";
 import { Tractor } from "lucide-react";
+import { ShieldOff } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -265,6 +267,17 @@ const contentLp01 = {
         title: "Experiência, eficiência e resultados",
         description:
           "Equipe experiente, processos ágeis e resultados consistentes.",
+      },
+      card5: {
+        icon: <ShieldCheck width={32} height={32} />,
+        title: "Recebimento garantido",
+        description: "Acordos seguros que eliminam o risco de inadimplência.",
+      },
+      card6: {
+        icon: <ShieldOff width={32} height={32} />,
+        title: "Evite penhoras",
+        description:
+          "EBloqueios judiciais como o BacenJud podem comprometer seu precatório — receba com segurança e tranquilidade.",
       },
     },
   },
