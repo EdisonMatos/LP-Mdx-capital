@@ -100,7 +100,8 @@ export const infos = {
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
-  whatsappDefaultMessage: "Olá, quero vender meu precatório!",
+  whatsappDefaultMessage:
+    "Olá, tudo bem? Tenho interesse nos serviços da MDX CAPITAL! Gostaria de vender meu precatório e saber mais sobre as opções disponíveis.",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
