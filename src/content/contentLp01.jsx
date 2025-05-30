@@ -239,7 +239,7 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para lutar por seu precatório?",
+      title: "Porque escolher a MDX Capital para vender seu precatório?",
     },
     cards: {
       card1: {
