@@ -47,6 +47,13 @@ export default function FeaturesLPSecondary() {
                 contentLp01.featuresSecondary.cards.card4.description
               }
             />
+            <FeatureCardLP
+              icon={contentLp01.featuresSecondary.cards.card5.icon}
+              title={contentLp01.featuresSecondary.cards.card5.title}
+              description={
+                contentLp01.featuresSecondary.cards.card5.description
+              }
+            />
           </div>
         </SectionWrapper>
       </SectionArea>

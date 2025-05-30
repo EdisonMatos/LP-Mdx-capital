@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import logo from "../assets/imgs/logo/logo.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
@@ -11,6 +11,9 @@ import { BadgeDollarSign } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
 import { Contact } from "lucide-react";
 import { Building } from "lucide-react";
+import { Tractor } from "lucide-react";
+import { ShieldOff } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -90,7 +93,7 @@ const contentLp01 = {
         icon: <File width={32} height={32} />,
         title: "Sem burocracia",
         description:
-          "Saia da fila de espera e antecipe seu recebimento em 7 dias.",
+          "Saia da fila de espera e antecipe seu recebimento em 7 dias úteis.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
@@ -110,7 +113,7 @@ const contentLp01 = {
         icon: <Scale width={32} height={32} />,
         title: "Oferta personalizada",
         description:
-          "Receba uma proposta sob medida, com transparência e segurança jurídica.",
+          "Receba uma proposta justa, com transparência e segurança jurídica.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -143,8 +146,8 @@ const contentLp01 = {
         <br />
         <br />
         Com uma abordagem humanizada e estratégica, combinamos criatividade,
-        profissionalismo e iniciativa para entregar valor real, construir
-        confiança e gerar resultados consistentes.
+        profissionalismo e iniciativa para entregar a maior rentabilidade
+        possível, construir confiança e gerar resultados consistentes.
         <br />
         <br />
       </p>
@@ -154,15 +157,15 @@ const contentLp01 = {
   },
   featuresSecondary: {
     sectionHeader: {
-      miniTag: "ESTOU HABILITADO?",
-      title: "Veja se você pode vender seu precatório",
+      miniTag: "DINHEIRO IMEDIATO",
+      title: "Venda seu precatório agora",
     },
     cards: {
       card1: {
         icon: <Contact width={32} height={32} />,
-        title: "Servidor Público (Municipal, estadual e federal)",
+        title: "Servidor Público Municipal, Estadual e Federal",
         description:
-          "Precatório expedido em seu nome como servidor, pode ser vendido seu crédito e antecipar o recebimento do valor.",
+          "Precatório expedido em seu nome como servidor, pode ser vendido imediatamente e receba na sua conta.",
         modal1: {
           title: <p></p>,
           subtitle: <p>A_Definir</p>,
@@ -172,7 +175,7 @@ const contentLp01 = {
         icon: <Gavel width={32} height={32} />,
         title: "Advogados",
         description:
-          "Honorários advocatícios vinculados a precatórios desde que estejam devidamente destacados no processo.",
+          "Antecipe seu honorários advocatícios vinculados a precatórios, desde que estejam devidamente destacados no processo ou no ofício requisitório.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
@@ -182,7 +185,7 @@ const contentLp01 = {
         icon: <Building width={32} height={32} />,
         title: "Empresas",
         description:
-          "Empresas com créditos judiciais reconhecidos e registrados como precatórios.",
+          "Empresas com precatórios a receber. Faça seu capital de giro agora!",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -194,6 +197,16 @@ const contentLp01 = {
         description:
           "Herdeiros ou representantes legais podem vender precatórios de pessoas falecidas.",
         modal4: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
+      },
+      card5: {
+        icon: <Tractor width={32} height={32} />,
+        title: "Direito Agrário",
+        description:
+          "Se você foi desapropriado e possui precatório a receber, é possível antecipar esse valor de forma segura e legal.",
+        modal5: {
           title: <p></p>,
           subtitle: <p></p>,
         },
@@ -228,7 +241,7 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para lutar por seu precatório?",
+      title: "Porque escolher a MDX Capital para vender seu precatório?",
     },
     cards: {
       card1: {
@@ -255,6 +268,17 @@ const contentLp01 = {
         description:
           "Equipe experiente, processos ágeis e resultados consistentes.",
       },
+      card5: {
+        icon: <ShieldCheck width={32} height={32} />,
+        title: "Recebimento garantido",
+        description: "Acordos seguros que eliminam o risco de inadimplência.",
+      },
+      card6: {
+        icon: <ShieldOff width={32} height={32} />,
+        title: "Evite penhoras",
+        description:
+          "EBloqueios judiciais como o BacenJud podem comprometer seu precatório — receba com segurança e tranquilidade.",
+      },
     },
   },
   video: {
@@ -269,15 +293,15 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO ESPERE MAIS",
-      title: "Receba seu precatório agora mesmo!",
+      title: "Negocie seu precatório agora mesmo!",
       subtitle: (
         <p className="opacity-80">
-          Transforme seu precatório em dinheiro com segurança e as melhores
-          condições do mercado.
+          Transforme seu precatório em dinheiro no bolso com segurança e as
+          melhores condições do mercado.
         </p>
       ),
     },
-    buttonLabel: "Fale com um especialista agora",
+    buttonLabel: "Quero dinheiro no bolso",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
