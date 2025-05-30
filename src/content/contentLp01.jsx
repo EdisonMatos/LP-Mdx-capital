@@ -91,7 +91,7 @@ const contentLp01 = {
         icon: <File width={32} height={32} />,
         title: "Sem burocracia",
         description:
-          "Saia da fila de espera e antecipe seu recebimento em 7 dias.",
+          "Saia da fila de espera e antecipe seu recebimento em 7 dias úteis.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
@@ -111,7 +111,7 @@ const contentLp01 = {
         icon: <Scale width={32} height={32} />,
         title: "Oferta personalizada",
         description:
-          "Receba uma proposta sob medida, com transparência e segurança jurídica.",
+          "Receba uma proposta justa, com transparência e segurança jurídica.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
