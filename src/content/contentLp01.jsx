@@ -11,6 +11,7 @@ import { BadgeDollarSign } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
 import { Contact } from "lucide-react";
 import { Building } from "lucide-react";
+import { Tractor } from "lucide-react";
 
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -154,15 +155,15 @@ const contentLp01 = {
   },
   featuresSecondary: {
     sectionHeader: {
-      miniTag: "ESTOU HABILITADO?",
-      title: "Veja se você pode vender seu precatório",
+      miniTag: "DINHEIRO IMEDIATO",
+      title: "Venda seu precatório agora",
     },
     cards: {
       card1: {
         icon: <Contact width={32} height={32} />,
-        title: "Servidor Público (Municipal, estadual e federal)",
+        title: "Servidor Público Municipal, Estadual e Federal",
         description:
-          "Precatório expedido em seu nome como servidor, pode ser vendido seu crédito e antecipar o recebimento do valor.",
+          "Precatório expedido em seu nome como servidor, pode ser vendido imediatamente e receba na sua conta.",
         modal1: {
           title: <p></p>,
           subtitle: <p>A_Definir</p>,
@@ -172,7 +173,7 @@ const contentLp01 = {
         icon: <Gavel width={32} height={32} />,
         title: "Advogados",
         description:
-          "Honorários advocatícios vinculados a precatórios desde que estejam devidamente destacados no processo.",
+          "Antecipe seu honorários advocatícios vinculados a precatórios, desde que estejam devidamente destacados no processo ou no ofício requisitório.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
@@ -182,7 +183,7 @@ const contentLp01 = {
         icon: <Building width={32} height={32} />,
         title: "Empresas",
         description:
-          "Empresas com créditos judiciais reconhecidos e registrados como precatórios.",
+          "Empresas com precatórios a receber. Faça seu capital de giro agora!",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -194,6 +195,16 @@ const contentLp01 = {
         description:
           "Herdeiros ou representantes legais podem vender precatórios de pessoas falecidas.",
         modal4: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
+      },
+      card5: {
+        icon: <Tractor width={32} height={32} />,
+        title: "Direito Agrário",
+        description:
+          "Se você foi desapropriado e possui precatório a receber, é possível antecipar esse valor de forma segura e legal.",
+        modal5: {
           title: <p></p>,
           subtitle: <p></p>,
         },
