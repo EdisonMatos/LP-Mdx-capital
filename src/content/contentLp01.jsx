@@ -277,7 +277,7 @@ const contentLp01 = {
         icon: <ShieldOff width={32} height={32} />,
         title: "Evite penhoras",
         description:
-          "EBloqueios judiciais como o BacenJud podem comprometer seu precatório — receba com segurança e tranquilidade.",
+          "Bloqueios judiciais como o BacenJud podem comprometer seu precatório — receba com segurança e tranquilidade.",
       },
     },
   },
