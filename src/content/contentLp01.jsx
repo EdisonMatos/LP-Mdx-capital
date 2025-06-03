@@ -76,7 +76,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "VENDA AGORA",
       title:
-        "Você tem precatórios a receber? Descubra se pode antecipar e transformar seu direito em capital imediato.",
+        "ocê tem precatórios a receber? Antecipe e transforme seu direito em dinheiro vivo na sua conta!",
     },
     cards: {
       card1: {
@@ -113,7 +113,7 @@ const contentLp01 = {
         icon: <Scale width={32} height={32} />,
         title: "Oferta personalizada",
         description:
-          "Receba uma proposta justa, com transparência e segurança jurídica.",
+          "Análise do processo, elaboração do contrato, assinatura e pagamento.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -158,7 +158,7 @@ const contentLp01 = {
   featuresSecondary: {
     sectionHeader: {
       miniTag: "DINHEIRO IMEDIATO",
-      title: "Venda seu precatório agora",
+      title: "Venda seu precatório agora!",
     },
     cards: {
       card1: {
@@ -277,7 +277,7 @@ const contentLp01 = {
         icon: <ShieldOff width={32} height={32} />,
         title: "Evite penhoras",
         description:
-          "EBloqueios judiciais como o BacenJud podem comprometer seu precatório — receba com segurança e tranquilidade.",
+          "Bloqueios judiciais como o BacenJud podem comprometer seu precatório — receba com segurança e tranquilidade.",
       },
     },
   },
