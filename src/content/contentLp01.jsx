@@ -158,7 +158,7 @@ const contentLp01 = {
   featuresSecondary: {
     sectionHeader: {
       miniTag: "DINHEIRO IMEDIATO",
-      title: "Venda seu precatório agora",
+      title: "Venda seu precatório agora!",
     },
     cards: {
       card1: {
