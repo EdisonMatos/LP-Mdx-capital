@@ -301,7 +301,7 @@ const contentLp01 = {
         </p>
       ),
     },
-    buttonLabel: "Quero dinheiro no bolso",
+    buttonLabel: "Fale com um especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
