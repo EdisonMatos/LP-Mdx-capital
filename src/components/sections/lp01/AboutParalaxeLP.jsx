@@ -21,7 +21,7 @@ export default function AboutParalaxeLP({ logo }) {
       }}
       id="contact"
     >
-      <div className="absolute inset-0 bg-black/80 z-0 pointer-events-none" />
+      <div className="absolute inset-0 bg-black/50 z-0 pointer-events-none" />
       <div className="relative z-10 flex justify-center w-full text-colorWhite bg-opacity-10">
         <div className="flex justify-center w-full bg-colorBlack bg-opacity-80">
           <SectionArea>

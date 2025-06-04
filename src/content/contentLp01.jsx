@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import logo from "../assets/imgs/logo/logo.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
@@ -76,7 +76,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "VENDA AGORA",
       title:
-        "ocê tem precatórios a receber? Antecipe e transforme seu direito em dinheiro vivo na sua conta!",
+        "Você tem precatórios a receber? Antecipe e transforme seu direito em dinheiro vivo na sua conta!",
     },
     cards: {
       card1: {
@@ -103,7 +103,7 @@ const contentLp01 = {
         icon: <Banknote width={32} height={32} />,
         title: "Processo rápido",
         description:
-          "Análise do processo, elaboração do contrato, assinatura e pagamento",
+          "Análise do processo, elaboração do contrato, assinatura e pagamento.",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -113,7 +113,7 @@ const contentLp01 = {
         icon: <Scale width={32} height={32} />,
         title: "Oferta personalizada",
         description:
-          "Análise do processo, elaboração do contrato, assinatura e pagamento.",
+          "Receba uma proposta justa, com transparência e segurança jurídica.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -152,7 +152,7 @@ const contentLp01 = {
         <br />
       </p>
     ),
-    buttonLabel: "Fale com um especialista agora",
+    buttonLabel: "Agende agora mesmo",
     ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
   },
   featuresSecondary: {
@@ -165,7 +165,7 @@ const contentLp01 = {
         icon: <Contact width={32} height={32} />,
         title: "Servidor Público Municipal, Estadual e Federal",
         description:
-          "Precatório expedido em seu nome como servidor, pode ser vendido imediatamente e receba na sua conta.",
+          "Precatórios expedidos em seu nome como servidor podem ser vendidos imediatamente, e você recebe o valor na sua conta.",
         modal1: {
           title: <p></p>,
           subtitle: <p>A_Definir</p>,
@@ -175,7 +175,7 @@ const contentLp01 = {
         icon: <Gavel width={32} height={32} />,
         title: "Advogados",
         description:
-          "Antecipe seu honorários advocatícios vinculados a precatórios, desde que estejam devidamente destacados no processo ou no ofício requisitório.",
+          "Antecipe seus honorários advocatícios vinculados a precatórios, desde que estejam devidamente destacados no processo ou no ofício requisitório.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
@@ -301,7 +301,7 @@ const contentLp01 = {
         </p>
       ),
     },
-    buttonLabel: "Quero dinheiro no bolso",
+    buttonLabel: "Fale com um especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
