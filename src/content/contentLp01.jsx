@@ -165,7 +165,7 @@ const contentLp01 = {
         icon: <Contact width={32} height={32} />,
         title: "Servidor Público Municipal, Estadual e Federal",
         description:
-          "Precatório expedido em seu nome como servidor, pode ser vendido imediatamente e receba na sua conta.",
+          "Precatórios expedidos em seu nome como servidor podem ser vendidos imediatamente, e você recebe o valor na sua conta.",
         modal1: {
           title: <p></p>,
           subtitle: <p>A_Definir</p>,
@@ -175,7 +175,7 @@ const contentLp01 = {
         icon: <Gavel width={32} height={32} />,
         title: "Advogados",
         description:
-          "Antecipe seu honorários advocatícios vinculados a precatórios, desde que estejam devidamente destacados no processo ou no ofício requisitório.",
+          "Antecipe seus honorários advocatícios vinculados a precatórios, desde que estejam devidamente destacados no processo ou no ofício requisitório.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
