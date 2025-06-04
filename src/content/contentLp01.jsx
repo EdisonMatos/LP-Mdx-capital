@@ -76,7 +76,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "VENDA AGORA",
       title:
-        "ocê tem precatórios a receber? Antecipe e transforme seu direito em dinheiro vivo na sua conta!",
+        "Você tem precatórios a receber? Antecipe e transforme seu direito em dinheiro vivo na sua conta!",
     },
     cards: {
       card1: {
@@ -103,7 +103,7 @@ const contentLp01 = {
         icon: <Banknote width={32} height={32} />,
         title: "Processo rápido",
         description:
-          "Análise do processo, elaboração do contrato, assinatura e pagamento",
+          "Análise do processo, elaboração do contrato, assinatura e pagamento.",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -113,7 +113,7 @@ const contentLp01 = {
         icon: <Scale width={32} height={32} />,
         title: "Oferta personalizada",
         description:
-          "Análise do processo, elaboração do contrato, assinatura e pagamento.",
+          "Receba uma proposta justa, com transparência e segurança jurídica.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
