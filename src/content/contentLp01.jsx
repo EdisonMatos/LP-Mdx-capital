@@ -152,7 +152,7 @@ const contentLp01 = {
         <br />
       </p>
     ),
-    buttonLabel: "Fale com um especialista agora",
+    buttonLabel: "Agende agora mesmo",
     ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
   },
   featuresSecondary: {
